@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.mubn.vorlesung.exampleapplication.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_something"
+        android:title="Add something"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_input_add"
+        />
+    <item
+        android:id="@+id/action_delete_something"
+        android:title="Delete something"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_delete"
+        />
+    <item
+        android:id="@+id/action_mail_me"
+        android:title="Mail to Developer"
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_email"
+        />
+</menu>
